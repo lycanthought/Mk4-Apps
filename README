@@ -3,15 +3,28 @@ TiLDA Mk4 App Library
 
 Check out the wiki: https://badge.emfcamp.org/wiki/TiLDA_MK4
 
-Please use one of these categories:
-* System
-* Homescreens
-* Games
-* Sound
-* EMF
-* Villages
-* Phone
-* LEDs
-* Sensors
-* Demo
-* Other
+How to get an app onto your badge
+
+Update your own fork of the repo with your app:
+
+1. Fork the emfcamp/Mk4-Apps repo to your GitHub account
+2. Clone your repo
+3. Add your app to the root of your cloned repo
+4. git add .
+5. git commit -m "message"
+6. git push origin master
+
+On your badge:
+
+Press menu and select settings
+Select Badge Store
+Change the Repo setting to your repo i.e. just change emfcamp to your GitHub username
+Go back to the badge homepage
+Press menu
+Select Badge Store
+Select Install Apps
+Select your apps repo
+Now you can install your app from your GitHub repo
+
+
+Yeah!
